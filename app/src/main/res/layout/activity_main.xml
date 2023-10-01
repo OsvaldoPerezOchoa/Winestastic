@@ -29,6 +29,28 @@
 
 
 
+
+    <RelativeLayout
+        android:id="@+id/person"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigation"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            android:text="Person"
+            />
+
+    </RelativeLayout>
+
+
+
+
     <RelativeLayout
         android:id="@+id/home"
         android:layout_width="match_parent"
@@ -55,8 +77,11 @@
     </RelativeLayout>
 
 
+
+
+
     <RelativeLayout
-        android:id="@+id/person"
+        android:id="@+id/favoritos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/bottomNavigation"
@@ -68,7 +93,26 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:textSize="22sp"
-            android:text="Person"
+            android:text="Favoritos"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigation"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            android:text="Calendar"
             />
 
     </RelativeLayout>
