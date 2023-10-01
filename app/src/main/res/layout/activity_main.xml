@@ -28,27 +28,21 @@
     </RelativeLayout>
 
 
-
-
     <RelativeLayout
         android:id="@+id/person"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/bottomNavigation"
-        android:visibility="gone"
-        >
+        android:visibility="invisible">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:textSize="22sp"
             android:text="Person"
-            />
+            android:textSize="22sp" />
 
     </RelativeLayout>
-
-
 
 
     <RelativeLayout
@@ -56,23 +50,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/bottomNavigation"
-        android:visibility="visible"
-        >
+        android:visibility="visible">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:textSize="22sp"
             android:text="Home"
-            />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="Pto el que lo lea" />
+            android:textSize="22sp" />
 
     </RelativeLayout>
 
@@ -104,16 +89,26 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/bottomNavigation"
-        android:visibility="gone"
-        >
+        android:visibility="invisible">
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:focusedMonthDateColor="#883832"
+            android:selectedWeekBackgroundColor="#00BCD4"
+            android:unfocusedMonthDateColor="#3F51B5"
+            android:weekNumberColor="#8BC34A"
+            android:weekSeparatorLineColor="#673AB7" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:textSize="22sp"
-            android:text="Calendar"
-            />
+            android:layout_centerHorizontal="true"
+            android:text="Calendario"
+            android:textSize="22sp" />
 
     </RelativeLayout>
 
