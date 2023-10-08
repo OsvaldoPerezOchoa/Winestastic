@@ -6,30 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
-    
-
 
     <RelativeLayout
-        android:id="@+id/settings"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@id/bottomNavigation"
-        android:visibility="gone"
-        >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:textSize="22sp"
-            android:text="Settings"
-            />
-
-    </RelativeLayout>
-
-
-    <RelativeLayout
-        android:id="@+id/person"
+        android:id="@+id/menu"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/bottomNavigation"
@@ -439,24 +418,6 @@
 
 
 
-
-    <RelativeLayout
-        android:id="@+id/favoritos"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@id/bottomNavigation"
-        android:visibility="gone"
-        >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:textSize="22sp"
-            android:text="Favoritos"
-            />
-
-    </RelativeLayout>
 
 
     <RelativeLayout
