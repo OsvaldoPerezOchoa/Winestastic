@@ -30,7 +30,7 @@
         android:id="@+id/imageView"
         android:layout_width="192dp"
         android:layout_height="152dp"
-        app:srcCompat="@drawable/laRedonda"
+        app:srcCompat="@drawable/laredonda"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="122dp" />
