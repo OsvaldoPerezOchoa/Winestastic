@@ -44,4 +44,13 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="title_activity_evento">Evento_Activity</string>
+    <string name="title_activity_events">EventsActivity</string>
+    <string name="nombre_vinedo">nombre vinedo</string>
+    <string name="descripcion">descripcion</string>
+    <string name="button">Reservar</string>
+    <string name="recomendaciones">Eventos que te podrían interesar</string>
+    <string name="descripcion_evento">Precio\nDía\nHora</string>
+    <string name="comprarboleto">COMPRAR BOLETO</string>
+    <string name="nombrevinedo">De Cote Casa Vinícola</string>
+    <string name="todo">TODO</string>
 </resources>
