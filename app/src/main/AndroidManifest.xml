@@ -24,22 +24,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EventoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Evento_Activity"
-            android:exported="false"
-            android:label="@string/title_activity_evento"
-            android:theme="@style/Theme.Winestastic" />
-        <activity
-            android:name=".DetalleEventoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EventodetalleActivity"
-            android:exported="false"
-            android:label="@string/title_activity_eventodetalle"
-            android:theme="@style/Theme.Winestastic" />
-        <activity
             android:name=".MainActivity"
             android:exported="true" />
         <activity
